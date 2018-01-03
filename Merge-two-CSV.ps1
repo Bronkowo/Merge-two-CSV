@@ -4,22 +4,14 @@
 $CSV_A = Import-CSV -Path C:\Temp\CSVA.csv
 $CSV_B = Import-CSV -Path C:\Temp\CSVB.csv
 
-##############
-# $CSV_A 
-#
-# Number,Price
-# 1111,50
-# 2222,50
-# 3333,40
-
-##############
-# $CSV_B
-#
-# Number,Price
-# 1111,150
-# 2222,150
-# 3333,140
-
+#################### ####################
+# C:\Temp\CSVA.csv # # C:\Temp\CSVB.csv #
+#                  # #                  #
+# Number,Price     # # Number,Price     #
+# 1111,50          # # 1111,150         #
+# 2222,50          # # 2222,150         #
+# 3333,40          # # 3333,140         #
+                
 
 ############################
 # region Result 1
